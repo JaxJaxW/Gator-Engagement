@@ -8,15 +8,20 @@ body{
 
 }
 .container{
-
-    width: 70%;
     text-align: center;
+    
+    background: #FFB077
+
+    
+    
 
 }
 
 
-header{
+.header{
     background: #FFB077
+
+    
 }
 
 header::after{
@@ -27,6 +32,7 @@ header::after{
 
 .title{
 float: center;
+font-size: large
 
 }
 nav{
@@ -39,6 +45,7 @@ nav ul{
 
 nav li {
 display: inline-block;
-margin-left: 150px;
+margin-left: 100px;
+margin-right: 100px;
 padding-top: 23px;
 }
