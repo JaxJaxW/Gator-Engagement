@@ -49,3 +49,29 @@ margin-left: 100px;
 margin-right: 100px;
 padding-top: 23px;
 }
+
+.item1 { grid-area: leftCorner; }
+.item2 { grid-area: picture; }
+.item3 { grid-area: menu; }
+.item4 { grid-area: table; }
+.item5 { grid-area: blankL;}
+.item6 { grid-area: blankR;}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'leftCorner blankL picture picture picture blankR'
+      'menu blankL picture picture picture blankR'
+      'menu table table table table table'
+      'menu table table table table table';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
